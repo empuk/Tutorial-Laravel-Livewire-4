@@ -6,4 +6,4 @@ use Illuminate\Support\Facades\Route;
 Route::livewire('/', 'pages::posts.index')->name('posts.index');
 
 // posts create
-Route::livewire('/create', 'pages::posts.create')->name('posts.create');
+Route::livewire('create', 'pages::posts.create')->name('posts.create');
